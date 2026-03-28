@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВитЛесМаркет — распил и обработка древесины</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <div class="logo">
+            <span class="logo-main">ВИТЛЕСМАРКЕТ</span>
+            <span class="logo-sub">распил под заказ с 2009 года</span>
+        </div>
+
+        <nav id="menu">
+            <a href="#">Главная</a>
+            <a href="#about">О компании</a>
+            <a href="#services">Услуги</a>
+            <a href="#price">Цены</a>
+            <a href="#calculator">Калькулятор</a>
+            <a href="#gallery">Фото работ</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+
+        <div class="header-contacts">
+            <div class="phone">+375 (29) 124-23-98</div>
+            <a href="#" class="btn" id="callOrderBtn">Заказать звонок</a>
+        </div>
+
+        <div class="burger" id="burger">
+            ☰
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-container">
+        <h1>Точный распил древесины<br>по вашим размерам</h1>
+        <p class="hero-subtitle">Работаем с 2009 года. Более 5000 выполненных заказов.</p>
+        <div class="hero-features">
+            <div class="feature">Допуск ±1 мм</div>
+            <div class="feature">Любые породы дерева</div>
+            <div class="feature">Склад стройматериалов</div>
+        </div>
+        <a href="#calculator" class="btn-large">Рассчитать стоимость</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>О компании <span class="accent">ВитЛесМаркет</span></h2>
+        
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Мы занимаемся поставкой и обработкой древесины с 2009 года. За это время мы выполнили более 5000 заказов для частных лиц и строительных организаций.</p>
+                
+                <p>Наша специализация — точный распил под заказ. Вы получаете материал, готовый к использованию — не нужно искать, где пилить, терять время и деньги.</p>
+                
+                <h3>Почему выбирают нас:</h3>
+                <ul class="advantages-list">
+                    <li><strong>15+ лет</strong> — опыт работы на рынке</li>
+                    <li><strong>2 склада</strong> в Витебске и области</li>
+                    <li><strong>Собственный парк техники</strong> — доставка в день заказа</li>
+                    <li><strong>Контроль качества</strong> — принимаем лес только от проверенных поставщиков</li>
+                    <li><strong>Работаем с НДС</strong> — все документы для юрлиц</li>
+                </ul>
+            </div>
+            
+            <div class="about-image">
+                <img src="images/warehouse.jpg" alt="Склад древесины" class="image-shadow" onerror="this.src='https://via.placeholder.com/600x400?text=Склад'">
+                <p class="image-caption">Складской комплекс, 2000 м²</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="section bg-light">
+    <div class="container">
+        <h2>Услуги и цены</h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="images/sawing.jpg" alt="Распил досок на станке" class="service-img" onerror="this.src='https://via.placeholder.com/400x200?text=Распил'">
+                <div class="service-content">
+                    <h3>Распил в размер</h3>
+                    <p class="price">от 35 руб./м³</p>
+                    <ul class="service-details">
+                        <li>Торцовка, продольный и поперечный распил</li>
+                        <li>Допуск по длине ±1 мм</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/lumber.jpg" alt="Пиломатериалы" class="service-img" onerror="this.src='https://via.placeholder.com/400x200?text=Пиломатериалы'">
+                <div class="service-content">
+                    <h3>Комплектация проектов</h3>
+                    <p class="price">индивидуально</p>
+                    <ul class="service-details">
+                        <li>Набор деталей по спецификации</li>
+                        <li>Маркировка каждого элемента</li>
+                        <li>Упаковка и защита при перевозке</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/delivery.jpg" alt="Доставка" class="service-img" onerror="this.src='https://via.placeholder.com/400x200?text=Доставка'">
+                <div class="service-content">
+                    <h3>Доставка</h3>
+                    <p class="price">от 25 руб.</p>
+                    <ul class="service-details">
+                        <li>Манипулятор 5 т, 10 т</li>
+                        <li>Доставка в день заказа</li>
+                        <li>Разгрузка на объекте</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/stock.jpg" alt="Склад" class="service-img" onerror="this.src='https://via.placeholder.com/400x200?text=Склад'">
+                <div class="service-content">
+                    <h3>Самовывоз</h3>
+                    <p class="price">бесплатно</p>
+                    <ul class="service-details">
+                        <li>Удобный подъезд для фур</li>
+                        <li>Погрузка входит в стоимость</li>
+                        <li>Работаем с 8:00 до 20:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- КАЛЬКУЛЯТОР СТОИМОСТИ -->
+<section id="calculator" class="section">
+    <div class="container">
+        <h2>Калькулятор стоимости <span class="accent">распила</span></h2>
+        <p class="section-subtitle">Рассчитайте приблизительную стоимость вашего заказа</p>
+        
+        <div class="calculator-wrapper">
+            <div class="calculator-card">
+                <div class="calculator-form">
+                    <div class="calc-group">
+                        <label for="serviceType">Вид услуги:</label>
+                        <select id="serviceType">
+                            <option value="sawing">Распил доски обрезной (м³)</option>
+                            <option value="beam">Распил бруса (м³)</option>
+                            <option value="cutting">Торцовка в размер (100 шт.)</option>
+                            <option value="kit">Комплектация проекта</option>
+                        </select>
+                    </div>
+                    
+                    <div class="calc-group" id="volumeGroup">
+                        <label for="volume">Объём (м³):</label>
+                        <input type="number" id="volume" step="0.1" min="0" value="1">
+                        <div class="volume-presets">
+                            <button type="button" data-volume="0.5">0.5 м³</button>
+                            <button type="button" data-volume="1">1 м³</button>
+                            <button type="button" data-volume="2">2 м³</button>
+                            <button type="button" data-volume="5">5 м³</button>
+                            <button type="button" data-volume="10">10 м³</button>
+                        </div>
+                    </div>
+                    
+                    <div class="calc-group" id="quantityGroup" style="display: none;">
+                        <label for="quantity">Количество (сотен шт.):</label>
+                        <input type="number" id="quantity" step="1" min="0" value="1">
+                        <span class="hint">* 1 = 100 штук</span>
+                    </div>
+                    
+                    <div class="calc-result">
+                        <p>Итоговая стоимость:</p>
+                        <div class="result-price">
+                            <span id="totalPrice">35</span>
+                            <span class="currency">руб.</span>
+                        </div>
+                        <p class="calc-note">* Минимальная стоимость заказа — 50 руб.</p>
+                    </div>
+                    
+                    <button type="button" id="submitOrderBtn" class="btn-large calc-submit">Оформить заявку</button>
+                </div>
+                
+                <div class="calculator-info">
+                    <h3>Как мы считаем?</h3>
+                    <ul>
+                        <li>Распил доски — 35 руб./м³</li>
+                        <li>Распил бруса — 40 руб./м³</li>
+                        <li>Торцовка — 25 руб. за 100 шт.</li>
+                        <li>Комплектация проекта — от 50 руб.</li>
+                    </ul>
+                    <p class="info-note">* Итоговая стоимость может измениться после уточнения деталей заказа.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="price" class="section bg-light">
+    <div class="container">
+        <h2>Стоимость распила</h2>
+        <p class="section-subtitle">Базовые цены на популярные позиции. Точный расчёт — после замера.</p>
+        
+        <table class="price-table">
+            <thead>
+                
+                    <th>Вид работ</th>
+                    <th>Ед. изм.</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Распил доски обрезной (пиломатериалы)</td>
+                    <td>м³</td>
+                    <td>35 руб.</td>
+                </tr>
+                <tr>
+                    <td>Распил бруса (любого сечения)</td>
+                    <td>м³</td>
+                    <td>40 руб.</td>
+                </tr>
+                <tr>
+                    <td>Торцовка в размер</td>
+                    <td>100 шт.</td>
+                    <td>25 руб.</td>
+                </tr>
+                <tr>
+                    <td>Комплектация проекта (маркировка, упаковка)</td>
+                    <td>заказ</td>
+                    <td>от 50 руб.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p class="price-note">* Минимальная стоимость заказа — 50 руб. Для постоянных клиентов — скидки.</p>
+    </div>
+</section>
+
+<section id="gallery" class="section">
+    <div class="container">
+        <h2>Примеры работ</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/timber.jpg" alt="Брус" onerror="this.src='https://via.placeholder.com/400x300?text=Брус'">
+                <p>Брус 150×150, распил в размер</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/board.jpg" alt="Доска обрезная" onerror="this.src='https://via.placeholder.com/400x300?text=Доска'">
+                <p>Доска обрезная, сорт 1</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/roof.jpg" alt="Стропильная система" onerror="this.src='https://via.placeholder.com/400x300?text=Стропила'">
+                <p>Готовый комплект для стропил</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/kit.jpg" alt="Комплект" onerror="this.src='https://via.placeholder.com/400x300?text=Комплект'">
+                <p>Комплект для строительства</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacts" class="section bg-light">
+    <div class="container">
+        <h2>Контакты и реквизиты</h2>
+        
+        <div class="contacts-grid">
+            <div class="contacts-info">
+                <h3>Офис и склад</h3>
+                <p><strong>Адрес:</strong> г. Витебск, ул. Тираспольская 122, складской комплекс "Задвинье"</p>
+                <p><strong>Телефон:</strong> +375 (29) 124-23-98 (приём заказов, WhatsApp)</p>
+                <p><strong>Email:</strong> raspil@vitles.by</p>
+                
+                <h3>Реквизиты</h3>
+                <p>ООО "ВитЛесМаркет"<br>
+                УНП 391234567<br>
+                р/с BY12 1234 5678 9012 3456 7890 1234 в ОАО "Беларусбанк"</p>
+                
+                <h3>Часы работы</h3>
+                <p>Пн-Пт: 8:00 – 20:00 (без обеда)<br>
+                Сб: 9:00 – 15:00<br>
+                Вс: по предварительной договорённости</p>
+            </div>
+            
+            <div class="contacts-form">
+                <h3>Оставить заявку</h3>
+                <form id="contactForm">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="tel" placeholder="Телефон" required>
+                    <input type="email" placeholder="Email (для сметы)">
+                    <textarea rows="5" placeholder="Опишите задачу, укажите размеры и количество" required></textarea>
+                    <button type="submit" class="btn-large">Отправить заявку</button>
+                </form>
+                <p class="form-note">Наш менеджер свяжется с вами в течение 15 минут</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="payment" class="section">
+    <div class="container">
+        <h2>Оплата заказа</h2>
+        <p>Оплатите заказ онлайн или оставьте заявку для безналичного расчёта</p>
+        
+        <div class="payment-wrapper">
+            <div class="payment-info">
+                <h3>Сумма заказа</h3>
+                <div class="order-summary">
+                    <div class="summary-price">
+                        <span class="summary-label">К оплате:</span>
+                        <span class="summary-amount" id="paymentAmountDisplay">0</span>
+                        <span class="currency">руб.</span>
+                    </div>
+                    <div class="summary-details" id="orderDetails">
+                        <small>Выберите услугу в калькуляторе выше</small>
+                    </div>
+                </div>
+                
+                <h3 style="margin-top: 30px;">Банковские реквизиты</h3>
+                <p>ООО "ВитЛесМаркет"<br>
+                УНП 391234567<br>
+                р/с BY12 1234 5678 9012 3456 7890 1234</p>
+                <p>Назначение платежа: "За распил по договору №..."</p>
+            </div>
+            
+            <div class="payment-card">
+                <h3>Оплата картой онлайн</h3>
+                <div class="current-amount">
+                    Сумма к оплате: <strong><span id="paymentAmount">0</span> руб.</strong>
+                </div>
+                <form id="paymentForm">
+                    <input type="text" id="cardNumber" placeholder="Номер карты" class="payment-input">
+                    <div class="payment-row">
+                        <input type="text" id="cardDate" placeholder="ММ/ГГ" class="payment-input small">
+                        <input type="text" id="cardCVV" placeholder="CVV" class="payment-input small">
+                    </div>
+                    <button type="submit" class="btn-large" style="width: 100%; margin-top: 10px;">Оплатить заказ</button>
+                </form>
+                <p id="paymentResult" class="payment-result"></p>
+                <p class="payment-note">* Тестовая оплата, деньги не списываются</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">ВИТЛЕСМАРКЕТ</div>
+                <p>Распил под заказ с 2009 года.<br>Качество, проверенное временем.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Навигация</h4>
+                <a href="#">Главная</a>
+                <a href="#about">О компании</a>
+                <a href="#services">Услуги</a>
+                <a href="#price">Цены</a>
+                <a href="#calculator">Калькулятор</a>
+                <a href="#gallery">Фото работ</a>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p>+375 (29) 124-23-98</p>
+                <p>г. Витебск, ул. Тираспольская 122</p>
+                <p>raspil@vitles.by</p>
+            </div>
+            <div class="footer-col">
+                <h4>Документы</h4>
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия использования</a>
+                <a href="#">Договор публичной оферты</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2009–2026 ООО "ВитЛесМаркет". Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
